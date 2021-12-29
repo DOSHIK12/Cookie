@@ -1,0 +1,45 @@
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    
+}
+img {
+    width: 60%;
+}
+.info {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.cookie {
+  display: flex;
+  justify-content: space-between;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+.ingredients {
+    list-style: none;
+    font-style: italic;
+    padding: 0;
+}
+.stars {
+    color: orange;
+}
+.author {
+    color: slategray;
+    font-style: italic;
+    font-weight: normal;
+}
+@media ( max-width: 425px){
+.cookie{
+    flex-direction: column;
+}
+img{
+    width: 100%;
+}
+.info{
+    flex-wrap: wrap;
+}
+}
